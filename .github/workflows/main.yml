@@ -54,7 +54,7 @@ jobs:
 
       - name: Desplegar a Surge.sh
 
-        run: surge ./ K3nMarie/Parcial1.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./ k3nmarie-parcial1.surge.sh --token ${{ secrets.SURGE_TOKEN }}
 
         env:
 
